@@ -7,16 +7,29 @@
     <style>
 
         /* Modificações do menu aplicados direto no HTML */
-        .menu{
-            margin: 20px;
-            border-style: solid;
-            padding: 5px;
-            width: 500px;
-            text-align: center;
-            background-color: yellowgreen;    
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
         }
 
-        .menu:hover{
+        li{
+            display: inline;
+            float: left;
+        }
+
+        li a{
+            border-color: yellowgreen;
+            background-color: yellowgreen;
+            color: black;
+            width: 100px;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        li a:hover{
             background-color: yellow;
         }
 
@@ -41,12 +54,14 @@
 <body>
 
     <header>
-        <nav class="menu">
-            <a href="tabela01.html" style="margin: 20px;">Tabela 01</a>
-            <a href="tabela02.html" style="margin: 20px;">Tabela 02</a>
-            <a href="tabela03.html" style="margin: 20px;">Tabela 03</a>
-        </nav>
+        <ul>
+            <li><a href="tabela01.html"><b>Tabela 01</b></a></li>
+            <li><a href="tabela02.html"><b>Tabela 02</b></a></li>
+            <li><a href="tabela03.html"><b>Tabela 03</b></a></li>
+        </ul>
     </header>
+
+    <br><br>
 
     <div>
 
