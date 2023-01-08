@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /* Modificações do menu aplicados direto no HTML */
+        .menu{
+            margin: 20px;
+            border-style: solid;
+            padding: 5px;
+            width: 500px;
+            text-align: center;
+            background-color: yellowgreen;    
+        }
+
+        .menu:hover{
+            background-color: yellow;
+        }
+
+        /* Modificações pro table direto no HTML */
+
+        table, tr, td{
+            border: 1px solid;
+            margin: 20px;
+        }
+
+        table{
+            width: 20%;
+            height: 200px;
+        }
+
+        /* Modificação de tamanho da teceira feita inline */
+        
+
+    </style>
+    <title>Tabela 03</title>
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <a href="tabela01.html" style="margin: 20px;">Tabela 01</a>
+            <a href="tabela02.html" style="margin: 20px;">Tabela 02</a>
+            <a href="tabela03.html" style="margin: 20px;">Tabela 03</a>
+        </nav>
+    </header>
+
+    <div>
+
+        <table>
+            <tr>
+                <td colspan="3"></td>               
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <br><br>
+
+    <div>
+
+        <table>
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>                
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                
+            </tr>
+        </table>
+
+    </div>
+
+    <br><br>
+
+    <div>
+
+        <table style="width: 30%; height: 300px;">
+
+            <tr>
+                <td colspan="5"></td>       
+            </tr>
+
+            <tr>
+                <td rowspan="4"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td rowspan="2"></td>
+                <td></td>
+                
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+                
+            </tr>
+
+            <tr>
+                <td colspan="3"></td>
+                <td></td>
+                
+                
+                
+            </tr>
+
+        </table>
+
+    </div>
+    
+</body>
+</html>

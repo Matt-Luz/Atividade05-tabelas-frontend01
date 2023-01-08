@@ -1,0 +1,71 @@
+/* Modificações Menu troca entre tabelas */
+
+.menu{
+    margin: 20px;
+    border-style: solid;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    background-color: yellowgreen;    
+}
+
+.menu:hover{
+background-color: yellow;
+}
+
+/* Modificações gerais das tabelas */
+
+table, tr, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table{
+    width: 500px;
+    height: 90px;
+}
+
+td{
+    padding: 8px;
+}
+
+/* Modificações da tabela 01 */
+
+.tr02{
+    text-align: center;
+}
+
+.tr03{
+    text-align: right;
+}
+
+.tr05{
+    text-align: center;
+}
+
+.td01{
+    text-align: center;
+}
+
+.tr08{
+    text-align: center;
+}
+
+/* Modificações da tabela 02 */
+
+.tr10{
+    text-align: center;
+}
+
+.tr11{
+    height: 400px;
+    text-align: center;
+}
+
+.tr12{
+    text-align: center;
+}
+
+/* Modificações tabela 03 feitas direto no HTML */
+
